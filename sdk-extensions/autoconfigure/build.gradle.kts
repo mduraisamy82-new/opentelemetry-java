@@ -51,6 +51,7 @@ testing {
         implementation(project(":extensions:trace-propagators"))
         implementation(project(":exporters:logging"))
         implementation(project(":exporters:logging-otlp"))
+        implementation(project(":exporters:logging-statsd"))
         implementation(project(":exporters:otlp:all"))
         implementation(project(":exporters:prometheus"))
         implementation("io.prometheus:prometheus-metrics-exporter-httpserver")
